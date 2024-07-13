@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('./../../../data/exercises/data_processing/sales_data.csv')
+df = pd.read_csv('../../../../data/exercises/dev_data_ops/sales_data.csv')
 
 df['price'].fillna(df['price'].mean(), inplace=True)
 df.dropna(subset=['sales', 'category'], inplace=True)

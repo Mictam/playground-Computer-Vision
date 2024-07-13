@@ -1,3 +1,6 @@
+Task 1: Data Processing with Pandas and Numpy
+Objective: Demonstrate your ability to manipulate and analyze data using popular Python libraries.
+
 Problem Statement:
 You are given a CSV file containing information about various products, including their prices, sales, and categories.
 Your task is to load the data, clean it, and perform some basic analysis.
