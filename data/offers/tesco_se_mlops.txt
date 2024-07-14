@@ -1,0 +1,81 @@
+JOB DESCRIPTION
+Online interview
+Friendly offer
+Company Description
+
+
+Tesco is a leading multinational retailer, with more than 330 000 colleagues.
+
+Our software is used by millions of people across several countries every day. Whether it’s the tills and websites our customers use, or the systems our colleagues and partners use, you’ll play your part in keeping it running like a well-oiled machine. And when a business problem pops up? You and the creative minds in our team will be challenged to solve it.
+
+As Tech Hub we cooperate within the group of Tesco Technology Hubs located in the UK, Poland, Hungary, and India.
+
+
+
+What our colleagues like the most at Tesco:
+
+We develop our own products
+We make an impact; large scale of operation
+Accountability and respect are given to us
+We cooperate and support each other
+There are great colleagues who are divided into small teams here
+We can develop and learn new things
+
+Job Description
+
+
+About the role
+
+We are looking for a Machine Learning Engineer, to join our growing Data Science Engineering team. You’ll work with other engineers, data scientists, product managers, systems engineers, and analytics professionals to help deliver valuable and innovative outcomes for our customers. You’ll work within and across our Engineering and Data Science teams, delivering scalable products that improve how we serve our customers and run our operations.
+
+This role would suit someone with previous experience working as a ML Engineer or a Software Engineer.
+
+
+
+About the Team:
+
+Within Tesco Data Science & Analytics, we help our customers and the communities where we operate get the most value from data. We build and run Tesco’s data platforms, we architect and engineer data onto these platforms, provide capabilities and tools to the analytics community across Tesco, and develop data products at scale.
+
+Our Data Science team are involved in a broad range of projects, spanning across supply chain, logistics, store and online. These include projects in the areas of Operations Optimizations, Commercial Decision Support (e.g. Forecasting and Range Optimization), Online (e.g. Search and Recommendation) and Intelligent Edge (e.g. Computer Vision). Our Machine Learning Engineers work alongside our data scientists, helping with everything from development of tools and platforms, code optimization through to deployment of solutions on the edge, cloud and big-data environments.
+
+
+
+You will be responsible for:
+
+Participating in group discussions on system design and architecture
+Working with product teams to communicate and translate needs into technical requirements
+Working alongside our Data Scientists, Software Engineers and Product teams across the software lifecycle
+Delivering high quality code and solutions, bringing solutions into production
+Performing code reviews to optimize technical performance of data science solutions.
+Supporting production systems, resolving incidents, and performing root cause analysis
+Look for how we can evolve and improve our technology, processes and practices
+Sharing knowledge with the immediate engineering team
+Applying SDLC practices to create and release robust software
+
+Qualifications
+
+
+You will need:
+
+You come from either a Software Engineering or ML Engineering background with a good understanding Programming (Python), Machine Learning and MLOps and bringing data science solutions into production.
+
+
+
+Key Requirements:
+
+2-3 years of experience working as a Software Engineer (experience working with Python Machine Learning project is beneficial)
+Strong Software Engineering skills, with experience of different programming languages and a good grasp of at least one language, ideally Python
+A background or understanding of the retail sector, logistics and/or ecommerce would be advantageous but is not required.
+Awareness of emerging MLOps practices and tooling would be an advantage e.g. feature stores and model lifecycle management.
+Customer focus with the right balance between outcome delivery and technical excellence.
+The ability to apply technical skills and know-how to solving real world business problems.
+Knowledge of building scalable and resilient systems. Practical experience is advantageous but not required.
+An analytical mind set and the ability to tackle specific business problems.
+Use of version control (Git) and related software lifecycle tooling (CI/CD).
+Desirable experience with tooling for monitoring, logging and alerting e.g. Splunk or Grafana.
+Understanding of common data structures and algorithms.
+Experience working with open-source Data-Science environments.
+Knowledge of open-source big-data technologies such as Apache Spark is desirable, but not required.
+Experience building solutions that run in the cloud, ideally Azure is desirable, but not required
+Experience using job scheduling tools, like Airflow, is desirable but not required
+Experience with software development methodologies including Scrum & Kanban

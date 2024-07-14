@@ -1,0 +1,33 @@
+About the job
+About Pinterest
+
+Millions of people across the world come to Pinterest to find new ideas every day. It’s where they get inspiration, dream about new possibilities and plan for what matters most. Our mission is to help those people find their inspiration and create a life they love. In your role, you’ll be challenged to take on work that upholds this mission and pushes Pinterest forward. You’ll grow as a person and leader in your field, all the while helping Pinners make their lives better in the positive corner of the internet.
+
+Creating a life you love also means finding a career that celebrates the unique perspectives and experiences that you bring. As you read through the expectations of the position, consider how your skills and experiences may complement the responsibilities of the role. We encourage you to think through your relevant and transferable skills from prior experiences.
+
+Our new progressive work model is called PinFlex, a term that’s uniquely Pinterest to describe our flexible approach to living and working. Visit our PinFlex landing page to learn more.
+
+This team work with the state-of-the-art machine learning algorithms together with the team of experienced engineers. Nowadays Generative AI is an area where all the big tech companies any investing their resources. Pinterest is no exception.
+
+What You’ll Do
+
+Impact & Mission. Join a team that works to implement a wide range of machine learning algorithms to deliver value for Pinners and Creators.
+Fast iterations. Prototype through fast iteration to explore and demonstrate opportunities for all of Pinterest’s global Pinners and Creators.
+Collaboration. Integrate with many other internal engineering teams across Pinterest to support the end-to-end user journeys. Work in dynamic and diverse environments alongside engineering, products and designers. Evangelization across engineering to implement and adopt best practices to simplify our codebase and promote growth.
+Ownership. Take ownership of product quality and release processes to deliver high quality user experiences.
+Feature Development. Work across all parts of the stack and be flexible working with different technologies.
+Inspiration. Research the most novel approaches by reading state-of-the-art articles, analyzing open source repositories and discussing with the team.
+Efficiency. Optimize performance and cost efficiency by using the most advanced techniques.
+Team. Working on improving current deep learning technologies, for example, object detection, classification, segmentation, visual similarity, data pipelines and some novel technologies in the area of generative AI.
+
+
+What We’re Looking For
+
+4+ years of software engineering experience.
+2+ years of industry experience in machine learning, in particular Deep Learning for Computer Vision using Pytorch framework.
+Deep understanding of modern architectures of Neural Networks for CV problems.
+Expertise in Python programming language for building effective pipelines for solving Machine Learning tasks.
+Mandatory knowledge of computer science fundamentals.
+Self-driven and openness to learn quickly, explore, flexibility without being afraid to dig deep.
+Strong communication skills and great product intuition.
+

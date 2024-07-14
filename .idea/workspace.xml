@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9f92a8-a91f-4f10-8259-4fdc1abc0e85" name="Changes" comment="added even more training tasks">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="1f9f92a8-a91f-4f10-8259-4fdc1abc0e85" name="Changes" comment="updated progress">
+      <change afterPath="$PROJECT_DIR$/data/offers/deepsense_ml_on_edge.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/offers/pinterest_ml_eng.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/offers/respo_vision_se_in_ml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/offers/revolut_deeplearning.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/offers/sky_engine_ai_fullstack.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/offers/sky_engine_ai_python_eng.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/offers/tesco_se_mlops.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/offers/tesco_senor_py_eng_with_ml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/interview_questions.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup/content_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup/set_openai_api_key.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup/setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ddo_ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/exercises/data_processing/sales_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,25 +30,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="OpenAPI" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Mictam"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mictam&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mictam/playground-Computer-Vision.git",
-    "accountId": "d8147332-a9db-4129-ae67-f55f02c85b51"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mictam/playground-Computer-Vision.git&quot;,
+    &quot;accountId&quot;: &quot;d8147332-a9db-4129-ae67-f55f02c85b51&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,21 +67,50 @@
   "keyToString": {
     "Python tests.Python tests for test_example_model.TestModel.executor": "Run",
     "Python. ex1_pandas_numpy.executor": "Run",
+    "Python.content_generator.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu-20.04/home/mikolaj/miniconda3/bin/conda",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "//wsl.localhost/Ubuntu-20.04/home/mikolaj/trading/playground-Computer-Vision",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.1" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+    </layout>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\setup" />
       <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\src\exercises\data_processing\ex1" />
       <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\data\excercises\data_processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python. ex1_pandas_numpy">
+  <component name="RunManager" selected="Python.content_generator">
     <configuration name=" ex1_pandas_numpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playground-Computer-Vision" />
       <option name="ENV_FILES" value="" />
@@ -79,7 +124,31 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\src\exercises\data_processing\ex1\ ex1_pandas_numpy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="content_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="playground-Computer-Vision" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/setup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup/content_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,6 +167,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_example_model.TestModel&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -105,6 +175,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.content_generator" />
         <item itemvalue="Python. ex1_pandas_numpy" />
         <item itemvalue="Python tests.Python tests for test_example_model.TestModel" />
       </list>
@@ -113,7 +184,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -125,6 +197,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720894087313</updated>
+      <workItem from="1720974000751" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented example model creation and simple test">
       <option name="closed" value="true" />
@@ -150,13 +223,28 @@
       <option name="project" value="LOCAL" />
       <updated>1720904259272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated progress">
+      <option name="closed" value="true" />
+      <created>1720904293386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720904293386</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented example model creation and simple test" />
     <MESSAGE value="training task 1 completed" />
     <MESSAGE value="added even more training tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="added even more training tasks" />
+    <MESSAGE value="updated progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated progress" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/playground_Computer_Vision$content_generator.coverage" NAME="content_generator Coverage Results" MODIFIED="1720979482150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setup" />
   </component>
 </project>

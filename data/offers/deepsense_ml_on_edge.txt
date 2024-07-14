@@ -1,0 +1,28 @@
+deepsense.ai helps companies gain a competitive advantage by providing customized AI-powered end-to-end solutions, with the main focus on AI software, team augmentation and AI advisory services. Our technology capabilities include computer vision, predictive analytics and natural language processing. We also deliver machine learning and deep learning training programs to support companies in building in-house AI capabilities.
+
+
+We are looking for an ML on Edge Engineer who wants to work on data and ML-driven projects. At deepsense.ai you will have an opportunity to take part in commercial machine and deep learning projects, grow your competencies and share your experience with the experts in the field. We are working on various deep learning, computer vision, point cloud and NLP projects. If you have a solid software engineering background, know your way around classical algorithms, efficient data processing (3D, images) and productization of novel solutions on edge devices , we’ll be the best place to nurture your talents.
+
+
+You must have:
+very good knowledge of C++,
+good knowledge of Python,
+proficiency in using deep learning models on edge devices,
+knowledge of software development best practices: design patterns, code smells, continuous integration, code review, unit / functional / regression tests, Git,
+analytical thinking skills and knowledge of algorithms,
+a decent mathematical skill set (basics of linear algebra, mathematical analysis and probability theory),
+a strong interest in and basic knowledge of machine learning and data science,
+good working knowledge of English (B2 level).
+
+
+You may have:
+experience with processing image data and point cloud,
+experience with Android platform,
+practical experience in machine learning / data mining / data science,
+a portfolio of related side-projects or publications.
+
+
+Responsibilities:
+moving the solutions from research phase to production,
+compressing the deep learning models to gain performance with minimal accuracy drop,
+support multiple heterogeneous deployment platforms and frameworks at once.

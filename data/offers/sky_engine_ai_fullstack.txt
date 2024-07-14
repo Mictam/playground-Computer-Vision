@@ -1,0 +1,47 @@
+JOB DESCRIPTION
+Online interview
+SKY ENGINE AI is an Artificial Intelligence company headquartered in London, UK serving blue chip Fortune 100 companies. We help the Enterprises solve their data and machine learning vision AI tasks in the era of AI-driven business transformation. SKY ENGINE AI is empowering companies across multiple industries providing a Synthetic Data Cloud platform for deep learning in Vision AI. This is a chance for you to get in on the ground floor of an exciting AI company shifting the paradigm in artificial intelligence and computer vision.
+
+
+
+As a Full Stack Developer (with focus primarily on front-end), you will play a key role in designing, developing, and maintaining cutting-edge web applications. You will translate user needs and business requirements into intuitive, responsive, and visually stunning interfaces. This is an excellent opportunity to showcase your front-end expertise while also contributing to the full software development lifecycle.
+
+
+
+Here's what you can expect:
+
+A key role in a growing startup combining Artificial Intelligence/Machine Learning with photorealistic 3D Computer Graphics
+No old, legacy code to maintain: frontend (React.js) backend (Django)
+A voice in the decisions about the system
+Architecture, design and development of a complex, modern, highly-interactive, websocket-heavy, real-time web application
+Working closely with experts in the fields of CGI, Data Science, AI, Computer Vision
+
+
+Here’s the background we’d like you to have:
+
+Bachelor’s degree in Computer Science, Engineering, or related field (or equivalent work experience)
+Proven experience as a Full Stack Developer with a strong emphasis on front-end development (React), and familiarity with back-end development concepts and technologies (Django)
+Technologies and frameworks (commercial experience preferred):
+React, JavaScript, TypeScript
+Django, Python
+Websockets (e.g. Django channels, React websockets)
+REST API
+Modern CSS
+Unit testing (both for frontend and backend)
+Good understanding of web applications security
+English B2+ level
+Strong communication and interpersonal skills
+
+
+Here are the extra skills that would be a plus:
+
+Docker
+Cloud technologies (Amazon Web Services, Google Cloud, Microsoft Azure)
+Any familiarity with 3D Computer Graphics principles, WebGL
+
+
+We hope you will fit well with our team’s culture:
+
+Strong work ethic. All of us believe in our work’s ability to change human lives.
+Growth mindset: We are eager to invest in your continual development.
+Good team member: We care and watch out for each other. We’re humble individually, and go after big goals together.
