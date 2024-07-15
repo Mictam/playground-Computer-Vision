@@ -1,0 +1,1187 @@
+SKY ENGINE AI is an Artificial Intelligence company headquartered in London, UK serving blue chip Fortune 100 companies. We help the Enterprises solve their data and machine learning vision AI tasks in
+ the era of AI-driven business transformation. SKY ENGINE AI is empowering companies across multiple industries providing a Synthetic Data Cloud platform for deep learning in Vision AI. This is a chance for you to get in on the ground floor of an exciting AI company shifting the paradigm in artificial intelligence and computer vision.
+
+
+
+As a Full Stack Developer (with focus primarily on front-end), you will play a key role in designing, developing, and maintaining cutting-edge web applications. You will translate user needs and busine
+ss requirements into intuitive, responsive, and visually stunning interfaces. This is an excellent opportunity to showcase your front-end expertise while also contributing to the full software development lifecycle.
+
+
+
+Here's what you can expect:
+
+A key role in a growing startup combining Artificial Intelligence/Machine Learning with photorealistic 3D Computer Graphics
+No old, legacy code to maintain: frontend (React.js) backend (Django)
+A voice in the decisions about the system
+Architecture, design and development of a complex, modern, highly-interactive, websocket-heavy, real-time web application
+Working closely with experts in the fields of CGI, Data Science, AI, Computer Vision
+
+
+Here’s the background we’d like you to have:
+
+Bachelor’s degree in Computer Science, Engineering, or related field (or equivalent work experience)
+Proven experience as a Full Stack Developer with a strong emphasis on front-end development (React), and familiarity with back-end development concepts and technologies (Django)
+Technologies and frameworks (commercial experience preferred):
+React, JavaScript, TypeScript
+Django, Python
+Websockets (e.g. Django channels, React websockets)
+REST API
+Modern CSS
+Unit testing (both for frontend and backend)
+Good understanding of web applications security
+English B2+ level
+Strong communication and interpersonal skills
+
+
+Here are the extra skills that would be a plus:
+
+Docker
+Cloud technologies (Amazon Web Services, Google Cloud, Microsoft Azure)
+Any familiarity with 3D Computer Graphics principles, WebGL
+
+
+We hope you will fit well with our team’s culture:
+
+Strong work ethic. All of us believe in our work’s ability to change human lives.
+Growth mindset: We are eager to invest in your continual development.
+Good team member: We care and watch out for each other. We’re humble individually, and go after big goals together.
+### Coding Tasks:
+
+1. **Task Name:** Real-Time Chat Application Interface
+   - **Objective:** To build a real-time chat application interface using React and Websockets.
+   - **Problem Statement:** Develop a real-time chat application interface where users can send and receive messages instantaneously. The interface should update in real-time as messages are sent and received without needing a page reload.
+   - **Requirements:**
+     - Use React for front-end development.
+     - Implement Websockets to manage real-time message transmission.
+     - Ensure the user interface is responsive and visually appealing.
+     - Provide error handling for websocket connectivity issues.
+   - **Deliverables:**
+     - Source code for the chat interface.
+     - Instructions on how to set up and run the project locally.
+     - Screenshots or a short demo video showcasing the real-time functionality.
+
+2. **Task Name:** API Integration for Image Upload and Processing
+   - **Objective:** To create an interface that allows users to upload images and displays the processed images returned by a backend API.
+   - **Problem Statement:** Create a web interface where users can upload images. Once an image is uploaded, send it to a REST API endpoint, process it (e.g., apply computer vision algorithms), and display the processed image on the interface.
+   - **Requirements:**
+     - Use React for the front-end.
+     - Implement a file upload component.
+     - Integrate with a REST API for image processing.
+     - Display the uploaded and processed images in the interface.
+   - **Deliverables:**
+     - Source code for the web interface.
+     - Instructions on how to set up and run the project locally.
+     - Documentation explaining how to integrate with the REST API.
+
+3. **Task Name:** User Authentication and Authorization
+   - **Objective:** To develop a user authentication and authorization system using Django backend and integrate it with a React frontend.
+   - **Problem Statement:** Implement a user authentication system that allows users to register, log in, and log out. Additionally, users should have roles that determine access to certain parts of the application.
+   - **Requirements:**
+     - Use Django for the backend to handle user authentication (e.g., using Django's built-in authentication system).
+     - Use React for the front-end to create registration, login, and protected routes.
+     - Implement role-based access control.
+   - **Deliverables:**
+     - Source code for both backend and frontend.
+     - Instructions on how to set up and run the project locally.
+     - Documentation detailing the authentication flow and role-based access control.
+
+### Technical Questions:
+
+1. Explain your experience with React and how you've used it to develop user interfaces.
+2. How would you handle state management in a large-scale React application?
+3. Detail your experience with Django and how you've integrated it with a front-end framework like React.
+4. What are Websockets, and how do they differ from traditional HTTP requests?
+5. Describe a scenario where you had to use REST APIs in one of your projects.
+6. How would you ensure the security of a web application, particularly involving user authentication and data protection?
+7. What are some key principles to follow when designing a responsive web interface?
+8. Describe how you approach unit testing in both frontend and backend development.
+9. How familiar are you with Docker, and have you used it to containerize any applications?
+10. Can you explain any experience you have with cloud technologies (AWS, Google Cloud, Azure) in deploying web applications?
+
+### Answers to Technical Questions:
+
+1. I have extensive experience with React, having used it for several web applications. I have created dynamic, responsive, and component-based user interfaces, making use of React's state and props to manage data flow and rendering.
+
+2. For state management in large-scale React applications, I typically use Redux or Context API, depending on the complexity and requirements. Redux provides a predictable state container and reduces side effects, while Context API is suitable for simpler state management needs.
+
+3. I have integrated Django with React by using Django Rest Framework to expose APIs and connecting to these APIs from React. This allows for a seamless flow of data between the frontend and backend.
+
+4. Websockets provide full-duplex communication between the client and server, unlike traditional HTTP requests which are stateless and operate in a request-response model. Websockets are useful for real-time applications like chat systems.
+
+5. In one of my projects, I used REST APIs to fetch data from a server and update the front-end dynamically. This involved making GET and POST requests, handling responses, and updating the UI based on the data received.
+
+6. To ensure web application security, I implement HTTPS, use secure authentication protocols, ensure proper input validation and sanitization, and follow secure coding practices to prevent XSS, CSRF, and SQL injection attacks.
+
+7. Key principles for designing a responsive web interface include using flexible grid layouts (CSS Grid or Flexbox), media queries for different screen sizes, and ensuring that the interface elements adjust gracefully to various devices.
+
+8. For unit testing, I use Jest and React Testing Library for frontend components and PyTest for Django backend. I write test cases for critical functionalities to ensure they work as expected and prevent regressions.
+
+9. I am familiar with Docker and have used it to containerize web applications, ensuring consistent development environments and easy deployments. I write Dockerfiles and use Docker Compose to manage multi-container applications.
+
+10. I have experience deploying web applications on AWS, using services like EC2 for hosting, S3 for storage, and RDS for databases. I've also used Google Cloud for some projects, utilizing App Engine and Cloud Storage.Traceback (most recent call last):
+  File "/home/mikolaj/trading/playground-Computer-Vision/setup/content_generator.py", line 214, in <module>
+    main()
+  File "/home/mikolaj/trading/playground-Computer-Vision/setup/content_generator.py", line 209, in main
+    create_readme2([task], task_dir, job_title)
+  File "/home/mikolaj/trading/playground-Computer-Vision/setup/content_generator.py", line 117, in create_readme2
+    content += f"## Task {i}: {task['name']}\n"
+KeyError: 'name'
+(playground-Computer-Vision) mikolaj@ML-Terra:~/trading/playground-Computer-Vision/setup$ python content_generator.py
+JOB DESCRIPTION
+Online interview
+SKY ENGINE AI is an Artificial Intelligence company headquartered in London, UK serving blue chip Fortune 100 companies. We help the Enterprises solve their data and machine learning vision AI tasks in
+ the era of AI-driven business transformation. SKY ENGINE AI is empowering companies across multiple industries providing a Synthetic Data Cloud platform for deep learning in Vision AI. This is a chance for you to get in on the ground floor of an exciting AI company shifting the paradigm in artificial intelligence and computer vision.
+
+
+
+As a Full Stack Developer (with focus primarily on front-end), you will play a key role in designing, developing, and maintaining cutting-edge web applications. You will translate user needs and busine
+ss requirements into intuitive, responsive, and visually stunning interfaces. This is an excellent opportunity to showcase your front-end expertise while also contributing to the full software development lifecycle.
+
+
+
+Here's what you can expect:
+
+A key role in a growing startup combining Artificial Intelligence/Machine Learning with photorealistic 3D Computer Graphics
+No old, legacy code to maintain: frontend (React.js) backend (Django)
+A voice in the decisions about the system
+Architecture, design and development of a complex, modern, highly-interactive, websocket-heavy, real-time web application
+Working closely with experts in the fields of CGI, Data Science, AI, Computer Vision
+
+
+Here’s the background we’d like you to have:
+
+Bachelor’s degree in Computer Science, Engineering, or related field (or equivalent work experience)
+Proven experience as a Full Stack Developer with a strong emphasis on front-end development (React), and familiarity with back-end development concepts and technologies (Django)
+Technologies and frameworks (commercial experience preferred):
+React, JavaScript, TypeScript
+Django, Python
+Websockets (e.g. Django channels, React websockets)
+REST API
+Modern CSS
+Unit testing (both for frontend and backend)
+Good understanding of web applications security
+English B2+ level
+Strong communication and interpersonal skills
+
+
+Here are the extra skills that would be a plus:
+
+Docker
+Cloud technologies (Amazon Web Services, Google Cloud, Microsoft Azure)
+Any familiarity with 3D Computer Graphics principles, WebGL
+
+
+We hope you will fit well with our team’s culture:
+
+Strong work ethic. All of us believe in our work’s ability to change human lives.
+Growth mindset: We are eager to invest in your continual development.
+Good team member: We care and watch out for each other. We’re humble individually, and go after big goals together.
+### Coding Tasks:
+
+1. **Task Name:** Real-Time Messaging Feature
+   - **Objective:** Implement a real-time messaging feature using WebSockets in a React front-end and Django back-end.
+   - **Problem Statement:** Build a chat interface where users can send and receive messages in real-time. The interface should be responsive and update without refreshing the page.
+   - **Requirements:**
+     - Use React and WebSockets for the front-end.
+     - Implement Django Channels for WebSockets communication on the back-end.
+     - Messages should be stored in a PostgreSQL database.
+     - Ensure the interface is mobile-friendly and responsive.
+   - **Deliverables:**
+     - Source code with comments explaining key parts.
+     - A demo video showing the real-time messaging in action.
+     - Documentation on how to set up and run the feature.
+
+2. **Task Name:** User Authentication and Authorization
+   - **Objective:** Create a user authentication and authorization system using Django and React.
+   - **Problem Statement:** Implement a system where users can sign up, log in, and log out. Additionally, enforce authorization such that only logged-in users can access certain parts of the application.
+   - **Requirements:**
+     - Use Django's built-in authentication system on the back-end.
+     - Develop login, signup, and logout components in React.
+     - Securely store user credentials with proper hashing.
+     - Protect routes in the React application that require authentication.
+   - **Deliverables:**
+     - Source code with comments.
+     - A demo showing the sign-up, login, and restricted access pages.
+     - Documentation on how to set up and run the authentication system.
+
+3. **Task Name:** REST API for CRUD Operations on a Dataset
+   - **Objective:** Develop a CRUD (Create, Read, Update, Delete) REST API and its corresponding front-end interface.
+   - **Problem Statement:** Provide a RESTful API for managing a dataset (e.g., synthetic data samples). Create a front-end interface in React to interact with this API.
+   - **Requirements:**
+     - Develop a REST API in Django to handle CRUD operations.
+     - Build a React front-end with forms to create, read, update, and delete items from the dataset.
+     - Use Axios or Fetch for API requests.
+     - Ensure proper error handling and display validation messages.
+   - **Deliverables:**
+     - Source code with comments.
+     - A demo video showing the CRUD operations workflow.
+     - Documentation on how to set up and run the API and front-end interface.
+
+### Technical Questions and Answers:
+
+1. **Question:** What are the main differences between class and functional components in React?
+   - **Answer:** Class components are ES6 classes that extend from React.Component and can have state and lifecycle methods. Functional components are simpler, stateless components that are just plain JavaScript functions. With the introduction of hooks in React 16.8, functional components can now also handle state and lifecycle features.
+
+2. **Question:** How do you implement state management in a React application?
+   - **Answer:** State management in React can be implemented using built-in hooks like `useState` and `useReducer`, or by using state management libraries such as Redux, MobX, or the Context API for more complex state management needs.
+
+3. **Question:** Can you explain the concept of virtual DOM in React?
+   - **Answer:** The Virtual DOM is a lightweight in-memory representation of the actual DOM. React uses the Virtual DOM to optimize performance. When a component’s state changes, React updates the Virtual DOM before applying those changes to the real DOM, minimizing the number of actual DOM manipulations.
+
+4. **Question:** How do you ensure application security in a web application?
+   - **Answer:** Application security can be ensured by following best practices such as input validation, sanitizing and escaping user inputs, implementing secure authentication and authorization mechanisms, using HTTPS, protecting against common vulnerabilities like XSS, CSRF, SQL Injection, and keeping dependencies up-to-date.
+
+5. **Question:** What is Django Channels, and when would you use them?
+   - **Answer:** Django Channels extends Django to handle WebSockets, chat protocols, IoT protocols, and other asynchronous “real-time” connections. They are used when you need to create applications that require real-time updates, like live chat applications, online games, or live feed updates.
+
+6. **Question:** How would you optimize a React application for performance?
+   - **Answer:** You can optimize a React application by utilizing code-splitting, lazy loading, memoizing components with `React.memo`, using hooks like `useMemo` and `useCallback`, avoiding unnecessary re-renders, and employing performance monitoring tools like React Profiler.
+
+7. **Question:** What is CORS, and how do you handle it in Django?
+   - **Answer:** CORS (Cross-Origin Resource Sharing) is a security feature that restricts web pages from making requests to a different domain than the one that provided the web page. In Django, you can handle CORS by using the `django-cors-headers` package, which allows configuring the settings to permit or restrict specific origins.
+
+8. **Question:** Explain the significance of keys in React lists.
+   - **Answer:** Keys help React identify which items have changed, been added, or removed. They should be unique among sibling components. Using keys ensures that React's DOM diffing algorithm works efficiently without unnecessarily re-rendering elements.
+
+9. **Question:** How do you handle form validations in React?
+   - **Answer:** Form validations in React can be handled by using state to manage input values and validation messages, utilizing custom validation functions, or by using form libraries like Formik or React Hook Form that provide out-of-the-box validation and form handling capabilities.
+
+10. **Question:** What is the purpose of Docker in development and deployment, and how would you integrate it with a Django project?
+    - **Answer:** Docker is used to create containerized environments that ensure consistency across development, testing, and deployment. For integrating Docker with a Django project, you would write
+a Dockerfile for creating a Docker image of your Django application, and a `docker-compose.yml` file to define services, networks, and volumes for your application stack, making it easier to manage dependencies and scale services.Generated tasks and questions for sky_engine_ai_fullstack.txt
+About Revolut
+People deserve more from their money. More visibility, more control, more freedom. And since 2015, Revolut has been on a mission to deliver just that. With an arsenal of awesome products that span spending, saving, travel, transfers, investing, exchanging and more, we've helped 45+ million customers get more from their money. And we're not done yet.
+
+As we continue our lightning-fast growth,‌ two things are essential to continuing our success: our people and our culture. We've been officially certified as a Great Place to Work™ in recognition of ou
+r outstanding employee experience! So far, we have 10,000+ people working around the world, from our great offices or remotely, on our mission. And we're looking for more. We want brilliant people that love building great products, love redefining success, and love turning the complexity of a chaotic world into the simplicity of a beautiful solution.
+
+About the role
+As we continue to rapidly expand our customer base across the world, our team’s commercial impact also grows. Every step the team automates is one less step that needs to be handled manually, enabling Revolut to scale globally.
+
+We’re looking for Deep Learning Engineers in different departments, from Computer Vision and NLP to Quant, to help us better automate compliance-related processes by developing and producing both onlin
+e and offline algorithms. Motivated individuals skilled in software engineering, machine learning, neural networks, and applied mathematics, who possess a passion for building solutions, and have a high aptitude for data technologies and advanced models.
+
+This role offers the opportunity to relocate to Poland, Portugal, or Spain, where you’ll receive support from Revolut throughout the entire process. Once you move, you’ll have the flexibility to work remotely or in a hybrid model in our offices in Barcelona, Madrid, Porto, or Kraków.
+
+Up for the challenge? Let’s get in touch 🚀
+
+What you’ll be doing
+Working on customer-focused features
+Delivering real impact to features through rigorous data-driven solutions
+Improving existing algorithms and building new Proofs of Concept
+Researching and delivering PoCs into data products
+Collaborating with Product Owners, Engineers, and Data Scientists to continually solve complex data problems
+What you'll need
+5+ years of production experience
+A bachelor’s degree in a STEM subject (mathematics, computer science, engineering)
+Knowledge of Python with experience in computational libraries, OOP, TDD, and multi-processing
+Knowledge of SQL (joins, CTEs, functions, etc.)
+Hands-on experience with DL libs (PyTorch/TensorFlow/Keras, ONNX/OpenVino)
+A solid understanding of probability and statistics fundamentals
+To have a big picture approach to correctly diagnose problems and productionise research
+Excellent communication and collaboration skills to partner with Product Owners and department heads
+Nice to have
+A master’s degree or PhD in a quantitative discipline
+Experience with additional programming languages, such as Java, Scala, or C++
+Experience in anti-fraud departments
+Experience at a large tech company
+School/university Olympic medal competitions in physics, maths, economics, or programming
+### Coding Tasks:
+
+#### 1. Task Name: Financial Transaction Fraud Detection
+**Objective:** Develop an algorithm to detect fraudulent financial transactions.
+
+**Problem Statement:** You are provided with a dataset containing historical financial transactions, including various features such as transaction amount, merchant ID, and timestamp. Your objective is to build a machine learning model to classify transactions as fraudulent or non-fraudulent.
+
+**Requirements:**
+- Use Python and relevant computational libraries (scikit-learn, PyTorch/TensorFlow).
+- Implement data preprocessing steps (handling missing values, normalization, etc.).
+- Train multiple machine learning models (e.g., Logistic Regression, Random Forest, Deep Learning models).
+- Evaluate models using appropriate metrics (e.g., Precision, Recall, F1-Score).
+- Implement feature importance analysis to understand key factors influencing fraud.
+
+**Deliverables:**
+- Python scripts for data preprocessing, model training, evaluation, and feature importance analysis.
+- A trained model ready for production deployment.
+- A report summarizing the data preprocessing steps, model performance, and key findings.
+
+#### 2. Task Name: Natural Language Processing for Customer Support
+**Objective:** Develop an NLP model to classify customer support tickets based on their content.
+
+**Problem Statement:** Your task is to create a model that categorizes incoming customer support emails into predefined categories (e.g., billing issue, technical support, account management) to streamline the customer support process.
+
+**Requirements:**
+- Use Python and NLP libraries (NLTK, spaCy, or Hugging Face Transformers).
+- Preprocess text data (tokenization, stopword removal, lemmatization).
+- Implement text vectorization techniques (TF-IDF, word embeddings).
+- Train and evaluate multiple NLP models (e.g., Text Classification using RNNs, BERT).
+- Analyze model performance and generate classification reports.
+
+**Deliverables:**
+- Python scripts for text preprocessing, model training, and evaluation.
+- A trained NLP model ready for production deployment.
+- A report detailing the preprocessing steps, model selection rationale, and performance metrics.
+
+#### 3. Task Name: Time Series Forecasting for Cash Flow Management
+**Objective:** Forecast future cash flow based on historical financial data.
+
+**Problem Statement:** You have historical financial data, including revenue, expenses, and other financial metrics. Your task is to build a time series forecasting model to predict monthly cash flow for the next 12 months.
+
+**Requirements:**
+- Use Python and relevant time series libraries (Prophet, ARIMA, LSTM).
+- Perform time series analysis (trend, seasonality, decomposition).
+- Train and evaluate multiple time series models.
+- Visualize the forecast and confidence intervals.
+- Analyze forecasting accuracy using error metrics (RMSE, MAE).
+
+**Deliverables:**
+- Python scripts for data analysis, model training, and forecasting.
+- A trained time series model ready for production deployment.
+- Visualizations of historical data and forecasts.
+- A report detailing data analysis, model performance, and key findings.
+
+### Technical Questions:
+
+1. Explain the difference between supervised and unsupervised learning.
+2. What are the most common activation functions used in deep learning?
+3. How does the backpropagation algorithm work?
+4. What is overfitting, and how can it be prevented in machine learning models?
+5. Describe the steps involved in performing feature engineering.
+6. What are the advantages and disadvantages of using convolutional neural networks (CNNs) for image processing?
+7. How do gradient descent and its variants (SGD, Adam) differ?
+8. Explain the importance of data normalization in machine learning.
+9. What is the difference between precision and recall?
+10. When would you use a recurrent neural network (RNN) over a traditional feedforward neural network?
+
+### Answers to Technical Questions:
+
+1. **Answer to question 1:** Supervised learning involves training a model on labeled data, where the outcome is known, while unsupervised learning involves training on data without labeled responses, aiming to find hidden patterns or intrinsic structures.
+
+2. **Answer to question 2:** Common activation functions include ReLU (Rectified Linear Unit), Sigmoid, Tanh (Hyperbolic Tangent), and Softmax (for the output layer in classification tasks).
+
+3. **Answer to question 3:** Backpropagation involves calculating gradients of the loss function with respect to each weight by the chain rule, optimizing the weights to minimize errors by propagating the error backwards from the output to the input layers.
+
+4. **Answer to question 4:** Overfitting occurs when a model learns the noise in the training data, leading to poor generalization on new data. It can be prevented using techniques such as cross-validation, regularization (L1, L2), pruning, dropout, and training with more data.
+
+5. **Answer to question 5:** Feature engineering involves identifying relevant features, creating new features (e.g., combining existing ones), transforming variables (e.g., log transformation), binning, and encoding categorical variables.
+
+6. **Answer to question 6:** Advantages of CNNs include their ability to automatically and adaptively learn spatial hierarchies of features, making them suitable for image processing. Disadvantages include the need for large datasets and high computational power for training.
+
+7. **Answer to question 7:** Gradient Descent is an optimization algorithm to minimize the loss function. Variants like SGD (Stochastic Gradient Descent) update weights using one or few samples, providing computational efficiency and regularization. Adam (Adaptive Moment Estimation) combines advantages of AdaGrad and RMSProp, computing adaptive learning rates for each parameter.
+
+8. **Answer to question 8:** Data normalization scales features to a specific range (e.g., [0,1]) making them comparable, speeding up convergence in optimization algorithms and improving model performance, especially for distance-based algorithms.
+
+9. **Answer to question 9:** Precision is the ratio of true positive predictions to the total predicted positives, measuring exactness. Recall is the ratio of true positive predictions to all actual positives, measuring completeness. Precision answers "out of predicted positives, how many are true" while recall answers "out of actual positives, how many were predicted true."
+
+10. **Answer to question 10:** RNNs are used for sequential data where the order of data points matters (e.g., time series, text) due to their ability to maintain memory through hidden states. Traditional feedforward neural networks do not account for sequence or time-order relationships.Generated tasks and questions for revolut_deeplearning.txt
+About the role
+As a Software Engineer, you will be responsible for development, optimization, and preparation for deployment of our data acquisition and processing system which extracts 3D data from sport events based on video input.
+
+On the development side, you will be responsible for designing proper abstractions for new and existing functionalities, testing and optimizing the existing code base (mostly with regard to data proces
+sing and communication part), and directly working with the deployment team to push, maintain and extend the production system. As a software engineer, you will also ensure that the code is well written, tested, and extendable.
+
+We are open to ideas and give freedom in the taken approach and experimentation and expect that you will be able to work on the given tasks and deliver results with little supervision.
+
+Full-time position. Work in a semi-remote work setup - so we are flexible regarding the location, although we do have preference for a Warsaw based-person. We are flexible also in terms of contract type (B2B & UoP/ UZ possible).
+
+Responsibilities/Tasks:
+Design, develop, test, deploy, maintain and improve new functionalities
+Create, maintain and enforce good coding practices
+Maintain and improve efficient code workflow
+Optimize existing code
+Requirements
+Proficiency with Linux
+Proficiency with Python, minimum 2 years of experience, 3-4 is optimal
+Experience building and maintaining services in production
+Experience working with cloud environment (AWS/GCP)
+Experience with Docker
+Fluent Polish
+Good command of English
+
+Preferred
+Computer Science or Mathematics degree
+Experience building or maintaining low-latency systems
+Experience working in ML/DL or data engineering projects
+Experience working with scalable/distributed systems
+Experience with Python scientific stack: numpy, pandas
+### Coding Tasks:
+
+1. **Task Name:** Data Processing Pipeline Optimization
+
+   **Objective:** Optimize an existing data processing pipeline for performance improvements.
+
+   **Problem Statement:** You are given a data processing pipeline handling 3D data extraction from sports event videos. The current implementation has performance bottlenecks leading to slow processing times. Your task is to identify these bottlenecks and optimize the code to achieve at least a 25% improvement in processing time.
+
+   **Requirements:**
+   - Analyze and identify performance bottlenecks in the existing code.
+   - Optimize the code primarily using Python, ensuring it is still functional and accurate.
+   - Maintain good coding practices and include comprehensive unit tests.
+
+   **Deliverables:**
+   - Optimized codebase with comments explaining the changes.
+   - A performance report comparing the processing times before and after optimization.
+   - Unit tests to verify the functionality and performance of the optimized pipeline.
+
+2. **Task Name:** Service Deployment with Docker
+
+   **Objective:** Containerize a data acquisition and processing service using Docker.
+
+   **Problem Statement:** You need to containerize a Python-based data acquisition and processing service for easy deployment and scalability. The service should be capable of extracting 3D data from sport event videos. Create a Dockerfile and necessary configurations for this service.
+
+   **Requirements:**
+   - Create a Dockerfile for the service.
+   - Ensure all dependencies and configurations are included.
+   - Verify the container runs correctly and can process sample videos.
+   - Document the deployment steps.
+
+   **Deliverables:**
+   - Dockerfile and any additional configuration files.
+   - Documentation for building and running the Docker container.
+   - Sample video used for testing and verification of the service.
+
+3. **Task Name:** Cloud-based Data Processing
+
+   **Objective:** Deploy the data processing system on AWS/GCP.
+
+   **Problem Statement:** Your task is to deploy the data acquisition and processing system on a cloud platform (AWS or GCP) and ensure it can handle incoming data streams efficiently.
+
+   **Requirements:**
+   - Set up the necessary infrastructure on AWS/GCP.
+   - Deploy the containerized service created in Task 2.
+   - Ensure the service can scale automatically based on load.
+   - Include monitoring and logging for the deployed service.
+
+   **Deliverables:**
+   - Infrastructure as Code (IaC) scripts (e.g., Terraform) or cloud configuration files.
+   - Documentation on deployment, scaling, and monitoring setups.
+   - Access to the deployed service with test videos demonstrating its functionality.
+
+### Technical Questions:
+
+1. Explain the concept of data parallelism and task parallelism. How do they differ?
+
+2. What are the key differences between Docker and virtual machines? Why would you choose one over the other for deploying your application?
+
+3. Describe the steps you would take to diagnose and fix a performance bottleneck in a Python application.
+
+4. What is the role of a Dockerfile in containerization? Give an example of a simple Dockerfile.
+
+5. How would you handle dependencies and isolated environments in Python projects?
+
+6. Discuss the significance of load balancing and autoscaling in cloud environments. How would you implement these features on AWS or GCP?
+
+7. Explain the principles behind distributed systems. What are the challenges in building and maintaining them?
+
+8. How do you ensure the security of data and applications in a cloud-based deployment?
+
+9. What are the main advantages and limitations of using the Python scientific stack (numpy, pandas) for data processing?
+
+10. How would you design a testing strategy for a data acquisition and processing pipeline?
+
+### Answers to Technical Questions:
+
+1. **Answer to question 1:**
+   Data parallelism involves dividing data into chunks and performing the same operation on each chunk in parallel, typically used in operations like matrix multiplication. Task parallelism distributes tasks or threads across multiple processors, where each processor performs a different task simultaneously.
+
+2. **Answer to question 2:**
+   Docker provides lightweight containers that share the host OS kernel, making it more efficient and faster to start and stop compared to virtual machines which require separate OS instances. Docker i
+s usually chosen for its efficiency, ease of scalability, and lightweight nature, whereas VMs might be chosen when isolation is a higher priority or when running multiple different operating systems is necessary.
+
+3. **Answer to question 3:**
+   - Profile the application to identify slow parts using tools like cProfile or line_profiler.
+   - Analyze the profiling results to pinpoint the bottlenecks.
+   - Optimize the identified bottlenecks, which may include algorithm improvements, better data structures, or parallelizing tasks.
+   - Test to ensure functionality remains correct, and re-profile to confirm performance improvements.
+
+4. **Answer to question 4:**
+   A Dockerfile sets up the environment and instructions to automatically build a Docker image.
+   Example:
+   ```Dockerfile
+   FROM python:3.8-slim
+
+   WORKDIR /app
+
+   COPY requirements.txt requirements.txt
+   RUN pip install -r requirements.txt
+
+   COPY . .
+
+   CMD ["python", "app.py"]
+   ```
+
+5. **Answer to question 5:**
+   Use virtual environments via `venv` or `virtualenv` to manage dependencies and isolation. For larger projects, tools like `pipenv` or `Poetry` can manage dependencies more effectively, ensuring isolated, reproducible environments.
+
+6. **Answer to question 6:**
+   Load balancing distributes incoming requests across multiple instances to ensure no single instance is overwhelmed. Autoscaling automatically adjusts the number of active instances based on demand.
+   - On AWS, you can use Elastic Load Balancer (ELB) and Auto Scaling Groups (ASG).
+   - On GCP, you would use Google Cloud Load Balancing and Managed Instance Groups.
+
+7. **Answer to question 7:**
+   Distributed systems involve multiple interconnected systems working together to achieve a common goal. Challenges include ensuring data consistency, fault tolerance, synchronization, and managing network partitions.
+
+8. **Answer to question 8:**
+   - Use encryption for data at rest and in transit.
+   - Implement robust IAM (Identity and Access Management) policies.
+   - Regularly update and patch systems.
+   - Monitor for unusual activities and have an incident response plan.
+
+9. **Answer to question 9:**
+   **Advantages:** Efficient numerical computations, easy to use for data manipulation and analysis, supports complex mathematical functions.
+   **Limitations:** Performance issues with large datasets, limited to in-memory computations, can be slower than tools designed for big data.
+
+10. **Answer to question 10:**
+   - Unit testing for individual functions.
+   - Integration tests to ensure components work together.
+   - Performance tests to ensure the pipeline meets timing requirements.
+   - End-to-End tests to validate pipeline output against expected results.Generated tasks and questions for respo_vision_se_in_ml.txt
+JOB DESCRIPTION
+Online interview
+Friendly offer
+Company Description
+
+
+Tesco is a leading multinational retailer, with more than 330 000 colleagues.
+
+Our software is used by millions of people across several countries every day. Whether it’s the tills and websites our customers use, or the systems our colleagues and partners use, you’ll play your part in keeping it running like a well-oiled machine. And when a business problem pops up? You and the creative minds in our team will be challenged to solve it.
+
+As Tech Hub we cooperate within the group of Tesco Technology Hubs located in the UK, Poland, Hungary, and India.
+
+
+
+What our colleagues like the most at Tesco:
+
+We develop our own products
+We make an impact; large scale of operation
+Accountability and respect are given to us
+We cooperate and support each other
+There are great colleagues who are divided into small teams here
+We can develop and learn new things
+
+Job Description
+
+
+About the role
+
+We are looking for a Machine Learning Engineer, to join our growing Data Science Engineering team. You’ll work with other engineers, data scientists, product managers, systems engineers, and analytics
+professionals to help deliver valuable and innovative outcomes for our customers. You’ll work within and across our Engineering and Data Science teams, delivering scalable products that improve how we serve our customers and run our operations.
+
+This role would suit someone with previous experience working as a ML Engineer or a Software Engineer.
+
+
+
+About the Team:
+
+Within Tesco Data Science & Analytics, we help our customers and the communities where we operate get the most value from data. We build and run Tesco’s data platforms, we architect and engineer data onto these platforms, provide capabilities and tools to the analytics community across Tesco, and develop data products at scale.
+
+Our Data Science team are involved in a broad range of projects, spanning across supply chain, logistics, store and online. These include projects in the areas of Operations Optimizations, Commercial D
+ecision Support (e.g. Forecasting and Range Optimization), Online (e.g. Search and Recommendation) and Intelligent Edge (e.g. Computer Vision). Our Machine Learning Engineers work alongside our data scientists, helping with everything from development of tools and platforms, code optimization through to deployment of solutions on the edge, cloud and big-data environments.
+
+
+
+You will be responsible for:
+
+Participating in group discussions on system design and architecture
+Working with product teams to communicate and translate needs into technical requirements
+Working alongside our Data Scientists, Software Engineers and Product teams across the software lifecycle
+Delivering high quality code and solutions, bringing solutions into production
+Performing code reviews to optimize technical performance of data science solutions.
+Supporting production systems, resolving incidents, and performing root cause analysis
+Look for how we can evolve and improve our technology, processes and practices
+Sharing knowledge with the immediate engineering team
+Applying SDLC practices to create and release robust software
+
+Qualifications
+
+
+You will need:
+
+You come from either a Software Engineering or ML Engineering background with a good understanding Programming (Python), Machine Learning and MLOps and bringing data science solutions into production.
+
+
+
+Key Requirements:
+
+2-3 years of experience working as a Software Engineer (experience working with Python Machine Learning project is beneficial)
+Strong Software Engineering skills, with experience of different programming languages and a good grasp of at least one language, ideally Python
+A background or understanding of the retail sector, logistics and/or ecommerce would be advantageous but is not required.
+Awareness of emerging MLOps practices and tooling would be an advantage e.g. feature stores and model lifecycle management.
+Customer focus with the right balance between outcome delivery and technical excellence.
+The ability to apply technical skills and know-how to solving real world business problems.
+Knowledge of building scalable and resilient systems. Practical experience is advantageous but not required.
+An analytical mind set and the ability to tackle specific business problems.
+Use of version control (Git) and related software lifecycle tooling (CI/CD).
+Desirable experience with tooling for monitoring, logging and alerting e.g. Splunk or Grafana.
+Understanding of common data structures and algorithms.
+Experience working with open-source Data-Science environments.
+Knowledge of open-source big-data technologies such as Apache Spark is desirable, but not required.
+Experience building solutions that run in the cloud, ideally Azure is desirable, but not required
+Experience using job scheduling tools, like Airflow, is desirable but not required
+Experience with software development methodologies including Scrum & Kanban
+
+### Coding Tasks:
+
+#### Task 1: Customer Purchase Prediction Model
+- **Objective**: Develop a machine learning model to predict customer purchase behavior.
+- **Problem Statement**: Given a dataset containing historical purchase data of customers, build a machine learning model to predict if a customer will make a purchase in the next week.
+- **Requirements**:
+  - Use Python for implementation.
+  - You can use libraries such as Pandas, Scikit-learn, and Numpy.
+  - The dataset will include features such as customer ID, purchase history, browsing behavior, and demographic information.
+- **Deliverables**:
+  - Jupyter notebook with data preprocessing, model training, and evaluation.
+  - Source code files.
+  - Detailed README file explaining the approach and how to run the code.
+
+#### Task 2: Product Recommendation System
+- **Objective**: Build a product recommendation system using collaborative filtering.
+- **Problem Statement**: Using historical customer purchase data, create a recommendation system that suggests products to customers based on their purchase history and similar customers' purchase behavior.
+- **Requirements**:
+  - Use Python for implementation.
+  - You can use libraries such as Pandas, Numpy, and Scikit-learn.
+  - Impute missing values and handle sparse data.
+- **Deliverables**:
+  - Jupyter notebook demonstrating the step-by-step building of the recommendation system.
+  - Source code files.
+  - Test scripts that validate the recommendation system.
+  - README file explaining the approach and how to run the code.
+
+#### Task 3: Deploying a Machine Learning Model in Azure
+- **Objective**: Deploy a trained machine learning model in Azure and create an API endpoint.
+- **Problem Statement**: Take a pre-trained machine learning model (you can use any simple classification model) and deploy it on Azure. Create an API endpoint to access the prediction functionality.
+- **Requirements**:
+  - Use Python for implementation.
+  - Create an Azure account and set up necessary resource groups and services.
+  - Utilize Azure’s services like Azure Machine Learning and App Services.
+- **Deliverables**:
+  - Jupyter notebook or Python script detailing the steps to deploy the model.
+  - API endpoint URL and documentation on how to use the API.
+  - README file with instructions on setting up Azure and deploying the model.
+
+### Technical Questions:
+
+1. Explain the concepts of underfitting and overfitting in machine learning.
+2. What is MLOps and why is it important in a machine learning ecosystem?
+3. How would you handle missing data in a dataset?
+4. Describe the function of a feature store in MLOps.
+5. What are the advantages of using version control (such as Git) in software development?
+6. What is the role of job scheduling tools like Airflow in data engineering?
+7. Can you explain the difference between supervised and unsupervised learning?
+8. Why might you choose to use Apache Spark for a big-data project?
+9. Explain the importance of CI/CD in the context of machine learning model deployment.
+10. Describe the SCRUM methodology and its importance in software development projects.
+
+### Answers to Technical Questions:
+
+1. **Answer to question 1**: Underfitting occurs when a machine learning model is too simple to capture the underlying pattern of the data, leading to poor performance on both the training and validati
+on datasets. Overfitting happens when the model is too complex and learns the noise in the training data, leading to high accuracy on the training dataset but poor performance on the validation dataset.
+
+2. **Answer to question 2**: MLOps (Machine Learning Operations) is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently. It is important because it bridges the gap between data science and operations, ensuring that the models are scalable, reproducible, and easily deployed.
+
+3. **Answer to question 3**: Handling missing data can be managed in several ways:
+   - Removing rows with missing values
+   - Imputing missing values with statistical measures (mean, median, mode)
+   - Using machine learning models to predict missing values
+   - Employing more advanced techniques like K-Nearest Neighbors or data augmentation
+
+4. **Answer to question 4**: A feature store is a centralized repository for storing, sharing, and managing curated feature sets used by machine learning models. It facilitates feature reuse, improves consistency, and speeds up the model training process.
+
+5. **Answer to question 5**: Version control systems like Git provide a way to track changes to code, collaborate with other developers, manage different versions of a project, and revert to previous versions if necessary. This leads to more organized and efficient project management.
+
+6. **Answer to question 6**: Job scheduling tools like Airflow automate and manage complex workflows. They allow for scheduling, monitoring, and executing tasks, which is especially useful in data pipelines where tasks need to be run in a specific order.
+
+7. **Answer to question 7**: Supervised learning is a type of machine learning where the model is trained on labeled data, meaning the input data has corresponding output labels. Unsupervised learning involves training on data without labels; the model tries to identify patterns and relationships in the data.
+
+8. **Answer to question 8**: Apache Spark is used for big-data projects due to its ability to process large volumes of data efficiently and quickly. It supports distributed computing, in-memory processing, and is compatible with other big-data tools such as Hadoop.
+
+9. **Answer to question 9**: CI/CD (Continuous Integration/Continuous Deployment) is crucial for machine learning model deployment because it allows for automatic integration of new code into a shared repository and automated deployment of tested changes to production. This ensures faster and more reliable updates to models.
+
+10. **Answer to question 10**: The SCRUM methodology is an agile framework for managing complex projects. It involves iterative development, where the development process is divided into small cycles k
+nown as sprints. Each sprint involves planning, execution, review, and retrospection. This methodology promotes flexibility, continuous improvement, and collaborative teamwork.Generated tasks and questions for tesco_se_mlops.txt
+JOB DESCRIPTION
+Online interview
+Friendly offer
+Job Description
+
+
+We are looking for a Python developer to join our Computer Vision team at Tesco. We are looking for someone to help build applications, working alongside our Computer Vision experts. The applications w
+ill deploy as live and batch services and integrate our Computer Vision capabilities into Tesco’s systems. You will be part of the wider software team that is part of the data science group at Tesco. We are looking for someone with experience deploying live systems in a complex environment.
+
+
+
+The Data Science Team focuses on modelling complex business problems and deploying data products at scale. Our work spans multiple areas including physical stores, online, supply chain, marketing, and Clubcard. We work on several domains and problem types: online, pricing, security, fulfilment, distribution, property, IoT, and computer vision are just some.
+
+
+
+About the Team
+
+
+
+The Computer Vision Team is at a relatively early stage, but the wider data science group is well established and widely successful at Tesco. This gives us the support of a well-established group as we
+ look to scale out computer vision. You will be part of this group and will have opportunities to explore other people and projects in data science through data science-wide retros, conferences, and social events.
+
+You will be part of a technical team that consists of both data scientists and software engineers.
+
+Moreover, our team members spend 10% of their week on learning and personal development. Multiple academic collaborations enrich the team's expertise; knowledge-sharing events are regular. Furthermore, we have a great work-life balance, team days, and a relaxed but engaging culture.
+
+
+
+You will be responsible for:
+
+Developing applications using our computer vision capabilities (e.g. image and video data analysis)
+Working on scaling and increasing the maturity of our computer vision capabilities, software systems, and development processes while exploring the value of our use cases.
+Developing system architectures to enable the deployment and scaling of the applications with edge and cloud components which take strategic approaches to balancing the costs of compute, bandwidth, and development effort.
+
+
+Qualifications
+
+
+You will need – Key Requirements:
+
+Strong Python Experience
+Good communication skills
+Have good coding practices and software design approaches
+Familiar with microservice and backend system design
+Familiar with networking concepts such as routing and firewalls
+Have an understanding of repo management, code release, testing and DevOps processes
+Get involved in improving deployment, monitoring, and security processes
+Integrate solutions into other Tesco systems
+Be able to use Docker and Azure
+Experience working with computationally intensive systems
+
+
+Nice to have:
+
+Some experience working on Computer Vision
+Understand the challenges in taking capabilities from the experimental codebase to production
+Understand on how our core Computer Vision capabilities can be built into solutions and solve business use cases
+Have an understanding of video streaming or Computer Vision system design (cloud deployment and/or edge deployment)
+Familiar of some CV and ML packages such, OpenCV, Tensorflow, Pytorch, Skimage, SciPy and SK-Learn
+
+### Coding Tasks:
+
+#### 1. Task Name: Image Processing Microservice
+**Objective:** Create a microservice to process and analyze images using Python and OpenCV.
+**Problem Statement:** Develop a microservice that receives an image, processes it (e.g., detects edges or identifies objects), and returns the processed image. This service should be deployable using Docker and integrate with Azure for storage.
+
+**Requirements:**
+- Use Python and OpenCV for image processing.
+- Implement RESTful API endpoints using Flask or FastAPI.
+- Containerize the service using Docker.
+- Integrate with Azure Blob Storage for image retrieval and storage.
+- Ensure proper logging and error handling.
+
+**Deliverables:**
+- Python code for the microservice.
+- Dockerfile to containerize the application.
+- Sample images and code to test the service.
+- Documentation on how to deploy and use the service.
+
+#### 2. Task Name: Video Stream Analysis
+**Objective:** Create a system that analyzes video streams in real-time using TensorFlow.
+**Problem Statement:** Develop a Python application that accepts video streams, processes frames in real-time to detect objects and anomalies using a pre-trained TensorFlow model, and saves the results to a cloud-based storage system.
+
+**Requirements:**
+- Use Python and TensorFlow for video frame processing.
+- Implement real-time frame extraction and processing.
+- Use Docker for containerization.
+- Deploy the application on Azure.
+- Save the analyzed frames and results on Azure Blob Storage.
+- Ensure efficient handling of video streams to minimize latency.
+
+**Deliverables:**
+- Python code for video stream analysis.
+- Dockerfile to containerize the application.
+- Configuration files for Azure deployment.
+- Documentation on how to set up and run the application.
+
+#### 3. Task Name: Network Configuration Checker
+**Objective:** Develop a script to validate network configurations such as routing and firewall settings.
+**Problem Statement:** Write a Python script that checks the network configurations (e.g., routing tables, firewall rules) to ensure they comply with predefined security and performance policies. The script should generate a detailed report indicating compliance status and suggestions for any non-compliant settings.
+
+**Requirements:**
+- Use Python for scripting.
+- Interact with network devices or configurations using appropriate libraries (e.g., Netmiko, Paramiko).
+- Compare current settings against predefined policies.
+- Generate a compliance report in a readable format.
+- Ensure proper logging and error handling.
+
+**Deliverables:**
+- Python script for network configuration checking.
+- Sample configuration files or policies for testing.
+- Example report generated by the script.
+- Documentation on how to use the script.
+
+### Technical Questions:
+
+1. Explain how you would deploy a Python-based microservice using Docker.
+2. Describe the steps you would take to integrate Azure Blob Storage with a Python application.
+3. What are some best practices for writing clean and maintainable Python code?
+4. How would you handle real-time processing of video streams for object detection using TensorFlow?
+5. What is the purpose of using a microservice architecture, and how does it differ from a monolithic architecture?
+6. Describe the process of creating and managing virtual environments in Python.
+7. How would you implement logging and error handling in a Python application?
+8. Explain the role of firewalls and routing in securing and managing network traffic.
+9. What are some challenges you might face when deploying a computationally intensive system, and how would you address them?
+10. Describe your experience with any computer vision libraries such as OpenCV, TensorFlow, or PyTorch, and how you would use them in a project.
+
+### Answers:
+
+1. To deploy a Python-based microservice using Docker:
+   - Write your Python application and ensure it works locally.
+   - Create a Dockerfile that specifies the runtime environment, dependencies, and commands to run the application.
+   - Build the Docker image from the Dockerfile using `docker build`.
+   - Run the Docker container using `docker run` or push the image to a container registry for deployment on an orchestrator like Kubernetes.
+
+2. To integrate Azure Blob Storage with a Python application:
+   - Install the Azure Storage SDK for Python (`azure-storage-blob`).
+   - Authenticate using an Azure storage account connection string or key.
+   - Use the BlobServiceClient to connect to the Blob Storage.
+   - Perform operations such as uploading, downloading, and listing blobs using the BlobServiceClient and ContainerClient classes.
+
+3. Best practices for writing clean and maintainable Python code include:
+   - Following PEP 8 style guide.
+   - Writing clear and concise docstrings.
+   - Using meaningful variable and function names.
+   - Keeping functions and classes small and focused.
+   - Writing unit tests to ensure code functionality.
+   - Using version control for code management.
+
+4. For real-time processing of video streams using TensorFlow:
+   - Capture video frames using a library like OpenCV.
+   - Pre-process frames as needed (e.g., resizing, normalization).
+   - Load and run the TensorFlow model on each frame.
+   - Post-process the model's output for display or further processing.
+   - Use multithreading or multiprocessing to minimize latency if needed.
+
+5. Microservice architecture involves breaking down an application into smaller, independent services that communicate over a network. It differs from a monolithic architecture where the entire application is a single codebase. Microservices offer advantages like improved scalability, easier maintenance, and isolation of failures.
+
+6. Creating and managing virtual environments in Python:
+   - Create a virtual environment using `python -m venv <env_name>` or `virtualenv <env_name>`.
+   - Activate the virtual environment using `source <env_name>/bin/activate` (Linux/macOS) or `<env_name>\Scripts\activate` (Windows).
+   - Install dependencies specific to the project within the virtual environment using pip.
+   - Deactivate the virtual environment with `deactivate` when done.
+
+7. In a Python application, logging and error handling can be implemented as follows:
+   - Use the `logging` module to record log messages. Configure log format and destination.
+   - Enclose code blocks in try-except statements to catch and handle exceptions.
+   - Log caught exceptions for troubleshooting purposes.
+   - Use context managers where appropriate to ensure proper resource management and error handling.
+
+8. Firewalls filter incoming and outgoing network traffic based on security rules, helping to prevent unauthorized access. Routing determines the path that data packets take to reach their destination. Both are crucial for network security and efficient traffic management.
+
+9. Challenges in deploying a computationally intensive system include resource constraints (CPU, memory, bandwidth), latency, and scalability. To address these:
+   - Optimize algorithms to be more efficient.
+   - Use hardware accelerators (e.g., GPUs).
+   - Distribute the workload using cloud-based solutions.
+   - Implement proper monitoring and autoscaling.
+
+10. Experience with computer vision libraries:
+    - OpenCV for image processing tasks like filtering, edge detection, and object tracking.
+    - TensorFlow for training and deploying deep learning models for tasks like image classification and object detection.
+    - PyTorch for prototyping and research in computer vision due to its dynamic computation graph.
+    - Examples of usage could include facial recognition systems, automatic defect detection in manufacturing, or real-time video analysis for surveillance.Generated tasks and questions for tesco_senor_py_eng_with_ml.txt
+About the job
+About Pinterest
+
+Millions of people across the world come to Pinterest to find new ideas every day. It’s where they get inspiration, dream about new possibilities and plan for what matters most. Our mission is to help
+those people find their inspiration and create a life they love. In your role, you’ll be challenged to take on work that upholds this mission and pushes Pinterest forward. You’ll grow as a person and leader in your field, all the while helping Pinners make their lives better in the positive corner of the internet.
+
+Creating a life you love also means finding a career that celebrates the unique perspectives and experiences that you bring. As you read through the expectations of the position, consider how your skills and experiences may complement the responsibilities of the role. We encourage you to think through your relevant and transferable skills from prior experiences.
+
+Our new progressive work model is called PinFlex, a term that’s uniquely Pinterest to describe our flexible approach to living and working. Visit our PinFlex landing page to learn more.
+
+This team work with the state-of-the-art machine learning algorithms together with the team of experienced engineers. Nowadays Generative AI is an area where all the big tech companies any investing their resources. Pinterest is no exception.
+
+What You’ll Do
+
+Impact & Mission. Join a team that works to implement a wide range of machine learning algorithms to deliver value for Pinners and Creators.
+Fast iterations. Prototype through fast iteration to explore and demonstrate opportunities for all of Pinterest’s global Pinners and Creators.
+Collaboration. Integrate with many other internal engineering teams across Pinterest to support the end-to-end user journeys. Work in dynamic and diverse environments alongside engineering, products and designers. Evangelization across engineering to implement and adopt best practices to simplify our codebase and promote growth.
+Ownership. Take ownership of product quality and release processes to deliver high quality user experiences.
+Feature Development. Work across all parts of the stack and be flexible working with different technologies.
+Inspiration. Research the most novel approaches by reading state-of-the-art articles, analyzing open source repositories and discussing with the team.
+Efficiency. Optimize performance and cost efficiency by using the most advanced techniques.
+Team. Working on improving current deep learning technologies, for example, object detection, classification, segmentation, visual similarity, data pipelines and some novel technologies in the area of generative AI.
+
+
+What We’re Looking For
+
+4+ years of software engineering experience.
+2+ years of industry experience in machine learning, in particular Deep Learning for Computer Vision using Pytorch framework.
+Deep understanding of modern architectures of Neural Networks for CV problems.
+Expertise in Python programming language for building effective pipelines for solving Machine Learning tasks.
+Mandatory knowledge of computer science fundamentals.
+Self-driven and openness to learn quickly, explore, flexibility without being afraid to dig deep.
+Strong communication skills and great product intuition.
+
+
+### Coding Tasks
+
+#### Task 1: Task Name: Face Detection and Classification
+**Objective:** Implement a face detection and classification system using deep learning models.
+**Problem Statement:** Create an application that detects faces in an image and classifies each detected face as one of several predefined categories (e.g., happy, sad, angry, etc.). Use a pretrained model for face detection and another model for emotion classification.
+**Requirements:**
+- Use Python and the PyTorch framework.
+- Utilize a pretrained face detection model like MTCNN or Haar cascades.
+- Use a CNN model trained on a face emotion dataset.
+- Ensure the model runs efficiently on a set of input images.
+**Deliverables:**
+- Python script for face detection and classification.
+- Jupyter notebook with code and results.
+- A brief report on the accuracy and performance of the model.
+
+#### Task 2: Task Name: Visual Similarity Search
+**Objective:** Develop a visual similarity search system for a given collection of images.
+**Problem Statement:** Implement a system that takes an input image and returns a set of images from a dataset that are most similar to the input image. Use feature extraction models to compare images and measure similarity.
+**Requirements:**
+- Use Python and the PyTorch framework.
+- Preprocess images and extract feature vectors using a convolutional neural network (CNN) such as ResNet.
+- Implement a similarity measure (e.g., cosine similarity) to find the most similar images.
+**Deliverables:**
+- Python script for image feature extraction and similarity search.
+- Jupyter notebook with code, methods, and sample results.
+- Documentation explaining the similarity measures used and performance evaluation.
+
+#### Task 3: Task Name: Data Pipeline for Image Segmentation
+**Objective:** Create a data pipeline to preprocess images and train an image segmentation model.
+**Problem Statement:** Build a data pipeline that loads images from a given directory, preprocesses them (resizing, normalization), and uses them to train a segmentation model for semantic segmentation tasks (e.g., object segmentation).
+**Requirements:**
+- Use Python, PyTorch, and relevant data processing libraries.
+- Implement image preprocessing steps like resizing, normalization, and augmentation.
+- Use a pretrained segmentation model (e.g., U-Net) and fine-tune it on the custom dataset.
+**Deliverables:**
+- Python scripts for data preprocessing and model training.
+- Jupyter notebook with code, training process, and results.
+- A report on model performance and segmentation quality.
+
+### Technical Questions
+
+1. Explain the architecture of a convolutional neural network (CNN) and its components.
+2. How does transfer learning work in the context of deep learning?
+3. What are some common loss functions used in classification and segmentation tasks?
+4. Describe the process of fine-tuning a pretrained neural network for a new task.
+5. How do you handle class imbalance in a machine learning dataset?
+6. What are the differences between supervised, unsupervised, and semi-supervised learning?
+7. Explain the concept of overfitting and the techniques to prevent it.
+8. Describe the importance of the learning rate in training neural networks.
+9. How do you optimize the computational efficiency of a deep learning model?
+10. What are some use cases of generative adversarial networks (GANs)?
+
+### Answers to Technical Questions
+
+1. **Answer to question 1:** A convolutional neural network (CNN) architecture typically consists of an input layer, several convolutional layers with filters that perform convolutions (filtering opera
+tions), followed by pooling layers that reduce dimensionality, fully connected (dense) layers, and an output layer. Key components include convolutional filters, activation functions (e.g., ReLU), pooling operations (e.g., max pooling), and loss functions for training.
+
+2. **Answer to question 2:** Transfer learning involves taking a pretrained model (trained on a large dataset) and fine-tuning it on a different, smaller, target dataset. This leverages the learned features from the pretrained model, allowing for faster convergence and often better performance on the new task.
+
+3. **Answer to question 3:** Common loss functions for classification include Cross-Entropy Loss and Binary Cross-Entropy Loss. For segmentation tasks, losses like Dice Loss, Intersection over Union (IoU) Loss, and Focal Loss are frequently used.
+
+4. **Answer to question 4:** Fine-tuning a pretrained neural network involves freezing the initial layers (to retain the learned features) and retraining the later layers or adding new layers with a smaller learning rate to adapt the model to the new task.
+
+5. **Answer to question 5:** Handling class imbalance can be achieved using techniques such as resampling (oversampling and undersampling), weighted loss functions, and data augmentation to create synthetic samples to balance the dataset.
+
+6. **Answer to question 6:** Supervised learning uses labeled data for training. Unsupervised learning uses unlabeled data to find structure or patterns. Semi-supervised learning combines both, using a small amount of labeled data along with a large amount of unlabeled data.
+
+7. **Answer to question 7:** Overfitting occurs when a model learns noise and details from the training data that do not generalize well to unseen data. Techniques to prevent overfitting include regularization (L1, L2), dropout, data augmentation, and early stopping.
+
+8. **Answer to question 8:** The learning rate determines the size of the steps the optimizer takes during training. A too high learning rate can cause the model to converge quickly to a suboptimal solution, while a too low learning rate can make the training process unnecessarily slow. Adjusting the learning rate is crucial for efficient training.
+
+9. **Answer to question 9:** Optimizing computational efficiency can involve techniques like model quantization, pruning, using efficient libraries, optimizing code (e.g., vectorization), and using hardware acceleration (e.g., GPUs, TPUs).
+
+10. **Answer to question 10:** Use cases of GANs include image generation, data augmentation, image-to-image translation (e.g., converting sketches to photos), video generation, and style transfer. GANs are particularly powerful for creating realistic synthetic data.Generated tasks and questions for pinterest_ml_eng.txt
+deepsense.ai helps companies gain a competitive advantage by providing customized AI-powered end-to-end solutions, with the main focus on AI software, team augmentation and AI advisory services. Our te
+chnology capabilities include computer vision, predictive analytics and natural language processing. We also deliver machine learning and deep learning training programs to support companies in building in-house AI capabilities.
+
+
+We are looking for an ML on Edge Engineer who wants to work on data and ML-driven projects. At deepsense.ai you will have an opportunity to take part in commercial machine and deep learning projects, g
+row your competencies and share your experience with the experts in the field. We are working on various deep learning, computer vision, point cloud and NLP projects. If you have a solid software engin
+eering background, know your way around classical algorithms, efficient data processing (3D, images) and productization of novel solutions on edge devices , we’ll be the best place to nurture your talents.
+
+
+You must have:
+very good knowledge of C++,
+good knowledge of Python,
+proficiency in using deep learning models on edge devices,
+knowledge of software development best practices: design patterns, code smells, continuous integration, code review, unit / functional / regression tests, Git,
+analytical thinking skills and knowledge of algorithms,
+a decent mathematical skill set (basics of linear algebra, mathematical analysis and probability theory),
+a strong interest in and basic knowledge of machine learning and data science,
+good working knowledge of English (B2 level).
+
+
+You may have:
+experience with processing image data and point cloud,
+experience with Android platform,
+practical experience in machine learning / data mining / data science,
+a portfolio of related side-projects or publications.
+
+
+Responsibilities:
+moving the solutions from research phase to production,
+compressing the deep learning models to gain performance with minimal accuracy drop,
+support multiple heterogeneous deployment platforms and frameworks at once.
+
+### Coding Tasks:
+
+#### 1. Task Name: Object Detection on Edge Devices
+**Objective:** Implement and deploy an object detection model on an edge device.
+**Problem Statement:** Develop a real-time object detection system that can recognize and classify objects within images captured by a camera on an edge device (e.g., NVIDIA Jetson Nano).
+**Requirements:**
+- Use a pre-trained deep learning model (e.g., YOLO, SSD).
+- Optimize the model for edge deployment by applying techniques such as quantization.
+- Implement inference code using C++/Python.
+- Ensure the model operates with minimal latency and high accuracy.
+**Deliverables:**
+- Source code of the object detection system.
+- Documented optimization techniques applied.
+- Performance metrics (accuracy, inference time).
+
+#### 2. Task Name: 3D Point Cloud Processing
+**Objective:** Develop a pipeline to process and analyze 3D point cloud data on an edge device.
+**Problem Statement:** Implement a system to process 3D point cloud data, extract features, and classify objects within the point cloud on an edge device.
+**Requirements:**
+- Acquire and preprocess 3D point cloud data.
+- Use a suitable deep learning architecture (e.g., PointNet) for object classification.
+- Optimize and deploy the model on an edge device.
+- Provide visualization of detected and classified objects.
+**Deliverables:**
+- Source code for data acquisition and preprocessing.
+- Trained and optimized model for point cloud classification.
+- Visualization tool for point cloud data.
+
+#### 3. Task Name: Natural Language Processing on Mobile Platform
+**Objective:** Implement a text classification model on an Android platform.
+**Problem Statement:** Develop an Android application that classifies text messages into predefined categories (e.g., spam, ham) using a deep learning model.
+**Requirements:**
+- Train a text classification model using a suitable architecture (e.g., LSTM, BERT).
+- Optimize the model for mobile deployment.
+- Implement the Android application with inference code using TensorFlow Lite or ONNX Runtime.
+- Ensure the application runs efficiently on low-power devices.
+**Deliverables:**
+- Trained and optimized text classification model.
+- Source code of the Android application.
+- User manual for the application.
+
+### Technical Questions:
+
+1. What are design patterns and why are they important in software development?
+2. Can you explain the steps involved in compressing a deep learning model?
+3. What are the common pitfalls to be aware of when deploying machine learning models on edge devices?
+4. How do you handle overfitting when training deep learning models?
+5. Explain the concept of point clouds and their significance in computer vision.
+6. What is the role of continuous integration in software development?
+7. How do you optimize a neural network model for inference on edge devices?
+8. Describe how you would transition a model from the research phase to production.
+9. Explain the importance of unit, functional, and regression testing in software development.
+10. What experience do you have with GPU acceleration for deep learning tasks?
+
+#### Answers:
+
+1. **Answer to question 1:**
+Design patterns are typical solutions to commonly occurring problems in software design. They are templates that can be applied to real-world programming tasks to make code more flexible, reusable, and maintainable. They are important because they provide established best practices, reduce errors, and enhance code readability and collaboration.
+
+2. **Answer to question 2:**
+Compressing a deep learning model involves techniques such as quantization, pruning, and knowledge distillation. Quantization reduces the precision of the model weights, pruning removes redundant neurons/filters, and knowledge distillation transfers knowledge from a large model to a smaller model, all aiming to reduce model size and enhance performance.
+
+3. **Answer to question 3:**
+Common pitfalls include over-reliance on the accuracy of the model without considering computational constraints, inefficient code that drains battery life or processing power, neglecting real-time requirements, and security vulnerabilities. Properly handling data privacy and ensuring efficient memory usage are also crucial.
+
+4. **Answer to question 4:**
+Overfitting can be handled by using regularization techniques (e.g., L2 regularization, dropout), data augmentation, early stopping during training, and using cross-validation to ensure the model generalizes well to unseen data.
+
+5. **Answer to question 5:**
+Point clouds are collections of data points defined in a 3D coordinate system representing the external surface of objects. They are significant in computer vision for tasks such as object detection, segmentation, and 3D modeling, and are widely used in applications such as autonomous driving and augmented reality.
+
+6. **Answer to question 6:**
+Continuous Integration (CI) is the practice of automatically integrating code changes from multiple contributors into a shared repository several times a day. CI helps to detect and fix integration issues early, ensures code quality through automated testing, and facilitates faster development cycles.
+
+7. **Answer to question 7:**
+Optimizing a neural network model for inference on edge devices involves model compression (quantization, pruning), replacing complex layers with efficient alternatives, using frameworks like TensorFlow Lite or ONNX Runtime, and fine-tuning hyperparameters to balance accuracy and performance.
+
+8. **Answer to question 8:**
+To transition a model from research to production, one must first ensure the model’s robustness through extensive testing. Next, optimize the model for performance and resource usage, containerize the deployment for consistency, establish monitoring mechanisms, and set up a continuous delivery pipeline for updates.
+
+9. **Answer to question 9:**
+Unit testing ensures individual components work as expected, functional testing verifies the system’s operations in line with requirements, and regression testing ensures that new changes do not disrupt existing functionality. Together, they improve code quality, prevent bugs, and maintain system stability.
+
+10. **Answer to question 10:**
+My experience with GPU acceleration involves training and inference of deep learning models using frameworks like TensorFlow and PyTorch on NVIDIA GPUs. I have optimized computational efficiency using CUDA, leveraged cuDNN for faster training, and used distributed training to handle large datasets and complex models.Generated tasks and questions for deepsense_ml_on_edge.txt
+Sky Engine, a new Artificial Intelligence company founded in UK with international presence, helps enterprises transform into greater AI companies. Sky Engine will empower companies across multiple industries, focusing initially on healthcare, sports, manufacturing and agriculture. This is a chance for you to get in on the ground floor of an exciting AI venture.
+
+We are exploring many new challenges from multiple verticals every day. In this role, you will drive the development of our new AI solutions and help develop machine learning products. You will also work closely with our business, product and engineering teams to deploy solutions to enterprise customers and see firsthand how a top-notch AI startup is built.
+
+Here's what you will do:
+
+Write effective, scalable code
+Participate in design, planning and architecture discussions of the company’s products
+Integrate with other system components
+Refactor code, add sugar and new functionality
+Build, maintain, and improve tooling and scripts that support engineering teams
+Here’s the background we’d like you to have:
+
+2+ years of Python experience
+Knowledge of software design principles and patterns
+A passion for delivering highly maintainable and scalable code
+Code testing skills
+A strong sense of ownership and the ability to work in teams
+Excellent problem solving and debugging skills
+Here are the extra skills that would be a plus:
+
+Enjoy building tools and frameworks for other engineers
+Passionate in Machine Learning and Artificial Intelligence
+Experience with Computer Vision, Computer Graphics and Blender
+Demonstrable experience with libraries for scientific calculations like sci-py, numpy, etc.
+Good technical writing skills
+Work methodology:
+
+Code reviews, SCRUM
+Continuous integration – GitLab
+Conda, Docker
+Git / Bitbucket / Jira / Confluence
+AWS, Azure
+Operating system – Linux
+We hope you will fit well with our team’s culture:
+
+Strong work ethic. All of us believe in our work’s ability to change human lives, and consequently work not just smart, but also hard.
+Growth mindset: We are eager to teach you new skills and invest in your continual development. But learning is hard work, so this is something we hope you’ll want to do.
+Good team member: We care and watch out for each other. We’re humble individually, and go after big goals together.
+Flexibility: Since we’re an early stage company, you should be flexible in your tasks and do whatever is needed.
+### Coding Tasks
+
+#### Task 1: **ML Model Implementation**
+   - **Objective:** Implement a machine learning model to predict patient outcomes based on healthcare data.
+   - **Problem Statement:** You are given a dataset with patient records, including various health metrics and past outcomes. Your task is to build a machine learning model using Python that can predict patient outcomes.
+   - **Requirements:**
+     1. Use Python and a machine learning library (e.g., Scikit-learn, TensorFlow).
+     2. Follow best practices for data preprocessing.
+     3. Train and evaluate the model using appropriate metrics.
+     4. Ensure the code is well-documented.
+   - **Deliverables:**
+     1. Python script (.py) with the implemented model.
+     2. A brief report (Markdown or PDF) on model performance and evaluation metrics.
+     3. A dataset used for training and testing (if not proprietary).
+
+#### Task 2: **Data Integration Script**
+   - **Objective:** Develop a script to integrate and preprocess data from multiple sources for a sports analytics application.
+   - **Problem Statement:** You have data coming from various sources—CSV files, APIs, and databases. Write a Python script to aggregate this data, perform necessary preprocessing, and save the result to a unified format (e.g., a single CSV or a database).
+   - **Requirements:**
+     1. Read data from different sources (CSV, API, SQL Database).
+     2. Handle missing data and perform necessary cleaning.
+     3. Standardize data formats.
+     4. Output the integrated data to a single CSV file or database table.
+   - **Deliverables:**
+     1. Python script (.py) for data integration and preprocessing.
+     2. Example input data files (anonymized if necessary).
+     3. Example output file (CSV) or database schema.
+    - **Answer:** Benefits include:
+      1. Scalable compute and storage resources.
+      2. Access to specialized AI/ML services (e.g., AWS SageMaker, Azure ML).
+      3. Integrated tools for deployment, monitoring, and security.
+
+    Challenges include:
+      1. Cost management and optimization.
+      2. Data privacy and compliance concerns.
+      3. Dependence on internet connectivity and service availability.
+
+These coding tasks and technical questions are tailored to assess and enhance candidate capabilities in creating scalable, maintainable AI solutions within a collaborative, dynamic, and innovative environment.Generated tasks and questions for sky_engine_ai_python_eng.txt

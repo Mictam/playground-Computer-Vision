@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9f92a8-a91f-4f10-8259-4fdc1abc0e85" name="Changes" comment="updated progress">
-      <change afterPath="$PROJECT_DIR$/data/offers/deepsense_ml_on_edge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/offers/pinterest_ml_eng.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/offers/respo_vision_se_in_ml.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/offers/revolut_deeplearning.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/offers/sky_engine_ai_fullstack.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/offers/sky_engine_ai_python_eng.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/offers/tesco_se_mlops.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/offers/tesco_senor_py_eng_with_ml.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/interview_questions.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup/content_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup/set_openai_api_key.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup/setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ddo_ex4.py" afterDir="false" />
+    <list default="true" id="1f9f92a8-a91f-4f10-8259-4fdc1abc0e85" name="Changes" comment="added task generator based on provided offers and some setup scripts">
+      <change afterPath="$PROJECT_DIR$/data/storage/4.0/combined.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/exercises/data_processing/sales_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/offers/pinterest_ml_eng.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/offers/respo_vision_se_in_ml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/offers/revolut_deeplearning.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/offers/sky_engine_ai_fullstack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/offers/sky_engine_ai_python_eng.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/offers/tesco_se_mlops.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/offers/tesco_senor_py_eng_with_ml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/content_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup/content_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Mictam/playground-Computer-Vision.git&quot;,
-    &quot;accountId&quot;: &quot;d8147332-a9db-4129-ae67-f55f02c85b51&quot;
+    &quot;accountId&quot;: &quot;0a0e45af-4d40-447c-9600-30cc8471d808&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -63,25 +57,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_example_model.TestModel.executor": "Run",
-    "Python. ex1_pandas_numpy.executor": "Run",
-    "Python.content_generator.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu-20.04/home/mikolaj/trading/playground-Computer-Vision",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_example_model.TestModel.executor&quot;: &quot;Run&quot;,
+    &quot;Python. ex1_pandas_numpy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.content_generator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu-20.04/home/mikolaj/trading/playground-Computer-Vision/data/offers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -104,10 +98,15 @@
     </layout>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\data\offers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\data\storage\4.0" />
+      <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\data\tmp" />
+      <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\notebooks\3.5" />
       <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\setup" />
       <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\src\exercises\data_processing\ex1" />
-      <recent name="\\wsl.localhost\Ubuntu-20.04\home\mikolaj\trading\playground-Computer-Vision\data\excercises\data_processing" />
     </key>
   </component>
   <component name="RunManager" selected="Python.content_generator">
@@ -231,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720904293386</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added task generator based on provided offers and some setup scripts">
+      <option name="closed" value="true" />
+      <created>1720980383946</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720980383946</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +249,8 @@
     <MESSAGE value="training task 1 completed" />
     <MESSAGE value="added even more training tasks" />
     <MESSAGE value="updated progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated progress" />
+    <MESSAGE value="added task generator based on provided offers and some setup scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added task generator based on provided offers and some setup scripts" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/playground_Computer_Vision$content_generator.coverage" NAME="content_generator Coverage Results" MODIFIED="1720979482150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setup" />

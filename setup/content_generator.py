@@ -1,16 +1,17 @@
 import os
-import openai
+from openai import OpenAI
 from pathlib import Path
 import nbformat as nbf
 
 api_key = os.getenv('OPENAI_API_KEY')
+client = OpenAI(api_key=api_key)
 
 if api_key is None:
     raise ValueError("No API key found. Please set the OPENAI_API_KEY environment variable.")
 
-openai.api_key = api_key
 
 def generate_tasks_and_questions(offer_content):
+    print(offer_content)
     prompt = f"""
     Based on the following job offer, generate 3 coding tasks and 10 technical questions that are relevant to the role described.
 
@@ -18,9 +19,21 @@ def generate_tasks_and_questions(offer_content):
     {offer_content}
 
     Coding Tasks:
-    1.
-    2.
-    3.
+    1. Task Name: [Task 1 Name]
+       Objective: [Objective of Task 1]
+       Problem Statement: [Detailed Problem Statement for Task 1]
+       Requirements: [List of requirements for Task 1]
+       Deliverables: [List of deliverables for Task 1]
+    2. Task Name: [Task 2 Name]
+       Objective: [Objective of Task 2]
+       Problem Statement: [Detailed Problem Statement for Task 2]
+       Requirements: [List of requirements for Task 2]
+       Deliverables: [List of deliverables for Task 2]
+    3. Task Name: [Task 3 Name]
+       Objective: [Objective of Task 3]
+       Problem Statement: [Detailed Problem Statement for Task 3]
+       Requirements: [List of requirements for Task 3]
+       Deliverables: [List of deliverables for Task 3]
 
     Technical Questions:
     1.
@@ -33,32 +46,86 @@ def generate_tasks_and_questions(offer_content):
     8.
     9.
     10.
+    
+    Provide answers to the technical questions in the format:
+    1. Answer to question 1.
+    2. Answer to question 2.
+    3. Answer to question 3.
+    4. Answer to question 4.
+    5. Answer to question 5.
+    6. Answer to question 6.
+    7. Answer to question 7.
+    8. Answer to question 8.
+    9. Answer to question 9.
+    10. Answer to question 10.
     """
-
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=prompt,
-        max_tokens=1500
+    stream = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[{"role": "user", "content": prompt}],
+        stream=True,
     )
 
-    return response.choices[0].text.strip()
+    response = ""
 
-def create_jupyter_notebook(technical_questions, notebook_path):
-    # Create a new Jupyter notebook
+    for chunk in stream:
+        if chunk.choices[0].delta.content is not None:
+            print(chunk.choices[0].delta.content, end="")
+            response += chunk.choices[0].delta.content
+
+    return response
+
+def experimental_create_jupyter_notebook(technical_questions, technical_answers, notebook_path):
     nb = nbf.v4.new_notebook()
 
-    # Add cells with technical questions and placeholders for answers
+    cells = [nbf.v4.new_markdown_cell("# Technical Questions\n")]
+    for i, (question, answer) in enumerate(zip(technical_questions, technical_answers), start=1):
+        question_cell = nbf.v4.new_markdown_cell(f"### Question {i}\n{question}\n\n")
+        answer_cell = nbf.v4.new_code_cell(f"""
+            # Hidden answer
+            from IPython.display import HTML, display
+            display(HTML('''
+            <button onclick="var x = document.getElementById('answer_{i}'); if (x.style.display === 'none') {{x.style.display = 'block';}} else {{x.style.display = 'none';}}">Show/Hide Answer</button>
+            <div id="answer_{i}" style="display:none;">
+            {answer}
+            </div>
+            '''))
+        """)
+        cells.extend([question_cell, answer_cell])
+
+    nb['cells'] = cells
+
+    with notebook_path.open('w') as f:
+        nbf.write(nb, f)
+
+def create_jupyter_notebook(technical_questions, notebook_path):
+    nb = nbf.v4.new_notebook()
+
     cells = [nbf.v4.new_markdown_cell("# Technical Questions\n")]
     for i, question in enumerate(technical_questions, start=1):
         cells.append(nbf.v4.new_markdown_cell(f"### Question {i}\n{question}\n\n**Answer:**\n"))
 
     nb['cells'] = cells
 
-    # Write the notebook to the specified file
     with notebook_path.open('w') as f:
         nbf.write(nb, f)
 
-def create_readme(coding_tasks, readme_dir):
+
+def create_readme2(coding_tasks, readme_dir, job_title):
+    readme_path = readme_dir / 'README.md'
+    content = f"# Coding Tasks\n\n"
+    for i, task in enumerate(coding_tasks, start=1):
+        content += f"## Task {i}: {task['name']}\n"
+        content += f"**Objective:** {task['objective']}\n\n"
+        content += f"**Problem Statement:**\n{task['problem_statement']}\n\n"
+        content += f"**Requirements:**\n{task['requirements']}\n\n"
+        content += f"\n**Deliverables:**\n{task['deliverables']}\n\n"
+        content += "\n"
+
+    readme_dir.mkdir(parents=True, exist_ok=True)
+    with readme_path.open('w') as f:
+        f.write(content)
+
+def create_readme(coding_tasks, readme_dir, job_title):
     readme_path = readme_dir / 'README.md'
     content = "# Coding Tasks\n\n"
     for i, task in enumerate(coding_tasks, start=1):
@@ -68,45 +135,78 @@ def create_readme(coding_tasks, readme_dir):
     with readme_path.open('w') as f:
         f.write(content)
 
+
 def main():
-    offers_dir = Path('./data/offers')
-    output_dir = Path('./src/autogenerated_exercises')
+    offers_dir = Path('./../data/offers')
+    output_dir = Path('./../src/autogenerated_exercises')
+    tasks_iterator = 1
 
     for offer_file in offers_dir.glob('*.txt'):
         with offer_file.open('r') as file:
             offer_content = file.read()
-
         result = generate_tasks_and_questions(offer_content)
 
-        # Split the result into coding tasks and technical questions
+        whole_result_dir = output_dir / f"results{tasks_iterator}.txt"
+        with whole_result_dir.open('w') as f:
+            f.write(result)
+
         coding_tasks = []
         technical_questions = []
+        technical_answers = []
         lines = result.split('\n')
         is_coding = False
         is_technical = False
+        is_answer_section = False
+        current_task = {}
 
         for line in lines:
             if "Coding Tasks:" in line:
                 is_coding = True
                 is_technical = False
+                is_answer_section = False
                 continue
             if "Technical Questions:" in line:
                 is_coding = False
                 is_technical = True
+                is_answer_section = False
+                continue
+            if "Provide answers to the technical questions" in line:
+                is_coding = False
+                is_technical = False
+                is_answer_section = True
                 continue
             if is_coding and line.strip():
-                coding_tasks.append(line.strip())
+                if (line.startswith("#### 1. Task Name:") or line.startswith("#### 2. Task Name:")
+                        or line.startswith("#### 3. Task Name:")):
+                    if current_task:
+                        coding_tasks.append(current_task)
+                    current_task = {'name': line.replace("Task Name:", "").strip()}
+                elif line.strip().startswith("**Objective:**"):
+                    current_task['objective'] = line.replace("Objective:", "").strip()
+                elif line.strip().startswith("**Problem Statement:**"):
+                    current_task['problem_statement'] = line.replace("Problem Statement:", "").strip()
+                elif line.strip().startswith("**Requirements:**"):
+                    current_task['requirements'] = line.replace("Requirements:", "").strip()
+                elif line.strip().startswith("**Deliverables:**"):
+                    current_task['deliverables'] = line.replace("Deliverables:", "").strip()
+                elif current_task.get('requirements') is not None and current_task.get('deliverables') is None:
+                    current_task['requirements'] += line.strip()
+                elif current_task.get('deliverables') is not None:
+                    current_task['deliverables'] += line.strip()
             if is_technical and line.strip():
                 technical_questions.append(line.strip())
+            if is_answer_section and line.strip() and line[0].isdigit():
+                technical_answers.append(line.strip())
+        coding_tasks.append(current_task)
 
-        # Create Jupyter Notebook
         notebook_path = output_dir / f"{offer_file.stem}_technical_questions.ipynb"
         create_jupyter_notebook(technical_questions, notebook_path)
+        #job_title = offer_content.split('\n')[0].strip()
 
-        # Create README.md for each coding task
-        for i, task in enumerate(coding_tasks, start=1):
-            task_dir = output_dir / f"ex{i}"
-            create_readme([task], task_dir)
+        # for i, task in enumerate(coding_tasks, start=1):
+        #     task_dir = output_dir / f"ex{tasks_iterator}"
+        #     tasks_iterator += 1
+        #     create_readme2([task], task_dir, job_title)
 
         print(f"Generated tasks and questions for {offer_file.name}")
 
